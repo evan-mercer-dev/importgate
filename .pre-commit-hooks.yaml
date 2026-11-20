@@ -1,0 +1,7 @@
+- id: importgate
+  name: importgate (AST import & lockfile boundary check)
+  description: Detect undeclared imports, phantom transitive dependencies, and slopsquatting typo-candidates.
+  entry: python3 -m importgate
+  language: system
+  types: [python]
+  pass_filenames: false
